@@ -1,4 +1,4 @@
-package strategy.structure;
+package Ejercicio4strategy.exercise;
 
 public class Client {
     public static void main (String[]args){

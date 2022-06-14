@@ -1,4 +1,4 @@
-package state.structure;
+package Ejercicio5state.structure;
 
 public class ConcreteState3 implements IState{
     // attribute

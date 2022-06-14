@@ -1,4 +1,4 @@
-package state.structure;
+package Ejercicio5state.structure;
 
 public class Context {
     private String attribute1;
@@ -32,7 +32,7 @@ public class Context {
     }
 
     public void request (){
-        System.out.println("INFO> Computadora - request");
+        System.out.println("INFO> Celular - request");
         this.state.handle();
     }
 }

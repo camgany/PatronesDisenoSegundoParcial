@@ -1,13 +1,13 @@
-package state.structure;
+package Ejercicio5state.structure;
 
-public class ConcreteState2 implements IState{
+public class ConcreteState1 implements IState{
     // attribute
     // methods
 
     @Override
     public void handle() {
         // logica para implementar el metodo del contexto
-        System.out.println("ConcreteState2>handle > ejecutando logica en el estado 2");
+        System.out.println("ConcreteState1>handle > ejecutando logica en el estado 1");
         // actions
         // methods
         // logic

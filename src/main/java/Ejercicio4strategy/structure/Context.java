@@ -1,4 +1,4 @@
-package strategy.structure;
+package Ejercicio4strategy.structure;
 
 public class Context {
     String attribute1;
