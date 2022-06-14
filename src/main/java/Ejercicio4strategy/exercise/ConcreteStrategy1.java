@@ -31,5 +31,9 @@ public class ConcreteStrategy1 implements IStrategy {
                 libros.get(posi).setCategoria(ci);
             }
         }
+        for (Libro l : libros
+             ) {
+            System.out.println("Libro: "+l.getId());
+        }
     }
 }

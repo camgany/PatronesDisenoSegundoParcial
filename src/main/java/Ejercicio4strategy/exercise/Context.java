@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Context {
-    List<Libro> libros = new ArrayList<>();
+    ArrayList<Libro> libros = new ArrayList<>();
     IStrategy strategy;
     String nombre;
 
@@ -16,7 +16,7 @@ public class Context {
         return libros;
     }
 
-    public void setLibros(List<Libro> libros) {
+    public void setLibros(ArrayList<Libro> libros) {
         this.libros = libros;
     }
 
