@@ -1,4 +1,4 @@
-package observer.exercise;
+package Ejercicio3observer.structure;
 
 public class Client {
     public static void main (String [] args){

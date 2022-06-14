@@ -1,4 +1,4 @@
-package observer.structure;
+package Ejercicio3observer.structure;
 
 public class ConcreteObserver implements IObserver{
     @Override

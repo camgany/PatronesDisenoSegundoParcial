@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class ConcreteStrategy3 implements IStrategy {
     @Override
     public void execute(ArrayList<Libro> libros) {
+        System.out.println("ORDENANDO POR CATEGORIA");
         int i, j, menor, posi, tmp;
         String nt;
         String ci;
@@ -31,7 +32,7 @@ public class ConcreteStrategy3 implements IStrategy {
         }
         for (Libro l : libros
         ) {
-            System.out.println("Libro: "+l.getCategoria());
+            System.out.println("Categoria: "+l.getCategoria());
         }
     }
 

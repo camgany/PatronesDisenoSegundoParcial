@@ -1,11 +1,11 @@
-package observer.exercise;
+package Ejercicio3observer.structure;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ConcreteSubject implements IPagina {
+public class ConcreteSubject implements ISubject {
 
-    private List<IUser> observers = new ArrayList<>();
+    private List<IObserver> observers = new ArrayList<>();
     private String attr1;
     private String attr2;
     private String attr3;
@@ -49,18 +49,18 @@ public class ConcreteSubject implements IPagina {
     }
 
     @Override
-    public void attach(IUser observer) {
+    public void attach(IObserver observer) {
         observers.add(observer);
     }
 
     @Override
-    public void detach(IUser observer) {
+    public void detach(IObserver observer) {
         observers.remove(observer);
     }
 
     @Override
     public void notifyObservers(String msg) {
-        for (IUser obs:observers) {
+        for (IObserver obs:observers) {
             obs.update(   "INFO> Evento "+msg  );
         }
 

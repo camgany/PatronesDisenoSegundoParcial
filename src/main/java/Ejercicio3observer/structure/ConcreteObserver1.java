@@ -1,6 +1,6 @@
-package observer.exercise;
+package Ejercicio3observer.structure;
 
-public class ConcreteObserver1 implements IUser {
+public class ConcreteObserver1 implements IObserver{
     @Override
     public void update(String msg) {
         // colocamos logica basados en el mensaje recibido

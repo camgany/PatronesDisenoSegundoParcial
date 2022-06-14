@@ -7,6 +7,7 @@ public class ConcreteStrategy1 implements IStrategy {
 
     @Override
     public void execute(ArrayList<Libro> libros) {
+        System.out.println("ORDENANDO POR ID");
         int i, j, menor, posi, tmp;
         String nt;
         String ci;
@@ -33,7 +34,7 @@ public class ConcreteStrategy1 implements IStrategy {
         }
         for (Libro l : libros
              ) {
-            System.out.println("Libro: "+l.getId());
+            System.out.println("Libro: "+l.getTitulo()+" ID: "+l.getId());
         }
     }
 }

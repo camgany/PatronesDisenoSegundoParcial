@@ -1,4 +1,4 @@
-package observer.exercise;
+package Ejercicio3observer.exercise;
 
 public interface IPagina {
     void attach(IUser observer);//agregar/adjuntar a los observadores

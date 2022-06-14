@@ -9,6 +9,7 @@ public class ConcreteStrategy2 implements IStrategy {
 
     @Override
     public void execute(ArrayList<Libro> libros) {
+        System.out.println("ORDENANDO POR TITULO");
         int i, j, menor, posi, tmp;
         String nt;
         String ci;

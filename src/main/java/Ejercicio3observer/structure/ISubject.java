@@ -1,4 +1,4 @@
-package observer.structure;
+package Ejercicio3observer.structure;
 
 public interface ISubject {
     void attach(IObserver observer);//agregar/adjuntar a los observadores
