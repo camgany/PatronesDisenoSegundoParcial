@@ -23,7 +23,12 @@ public class ConcreteStrategy1 implements IStrategy {
                 tmp = libros.get(i).getId();
                 libros.get(i).setId(libros.get(posi).getId());
                 libros.get(posi).setId(tmp);
-                nt
+                nt = libros.get(i).getTitulo();
+                libros.get(i).setTitulo(libros.get(posi).getTitulo());
+                libros.get(posi).setTitulo(nt);
+                ci = libros.get(i).getCategoria();
+                libros.get(i).setCategoria(libros.get(posi).getCategoria());
+                libros.get(posi).setCategoria(ci);
             }
         }
     }
